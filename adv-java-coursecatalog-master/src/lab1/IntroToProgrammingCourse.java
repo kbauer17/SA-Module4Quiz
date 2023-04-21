@@ -12,10 +12,9 @@ import javax.swing.*;
  */
 public class IntroToProgrammingCourse extends Course{
 
-    public IntroToProgrammingCourse(String courseName, String courseNumber, double credits) {
-        super(courseName,courseNumber,credits);
-        }
-
+    public IntroToProgrammingCourse(String courseNumber, String courseName, double credits) {
+        super(courseNumber, courseName, credits);
+    }
 
     @Override
     public String toString() {
